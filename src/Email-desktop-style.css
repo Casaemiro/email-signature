@@ -10,3 +10,14 @@
   a:hover {
       text-decoration: underline;
   }
+  .tab2 {
+      display: none;
+  }
+  @media only screen and (max-width:702px) {
+      .tab2 {
+          display: table;
+      }
+      .tab1 {
+          display: none;
+      }
+  }
